@@ -1,0 +1,144 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>Media App</title>
+    <link rel="stylesheet" href="aboutus_styles.css" />
+
+    <!-- jQuery needs to be placed before bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Start -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap End -->
+  </head>
+  <body>
+    <!-- Nav bar Start-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">MediaApp</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sports">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about_us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br /><br /><br />
+    <!-- Nav bar End-->
+
+    <!--Section-->
+    <section class="section pb-5">
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-7" style="box-shadow: 10px 10px 5px darkkhaki">
+          <div
+            id="map-container-google-11"
+            class="z-depth-1-half map-container-6"
+            style="height: 350px; margin: 10px"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.8347744736247!2d73.68309731452675!3d18.5814862721589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c065a7c56fcf%3A0xef9decaeddfce07f!2sTata%20Consultancy%20Services%20Limited!5e0!3m2!1sen!2sin!4v1613499364646!5m2!1sen!2sin"
+              width="600"
+              height="450"
+            ></iframe>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"
+                ><i class="fas fa-map-marker-alt"></i
+              ></a>
+              <center>TCS Pune</center>
+            </div>
+          </div>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-lg-5 mb-4">
+          <!-- Card -->
+          <div
+            class="card"
+            style="margin: 10px; box-shadow: 10px 10px 5px darkkhaki"
+          >
+            <div class="card-body">
+              <!--Header-->
+              <div class="form-header blue accent-1">
+                <h3
+                  style="
+                    color: white;
+                    text-shadow: 1px 1px 2px black, 0 0 25px blue,
+                      0 0 5px darkblue;
+                  "
+                >
+                  OUR MISSION
+                </h3>
+              </div>
+
+              <p style="font-size: 22px; text-shadow: 1px 1px 2px gold">
+                We ensure the highest levels of certainty and satisfaction
+                through a deep-set commitment to our clients, comprehensive
+                industry expertise and a global network of innovation and
+                delivery centers. Our mission is to help customers achieve their
+                business objectives by providing innovative, best-in-class
+                consulting, IT solutions and services and to make it a joy for
+                all stakeholders to work with us. We function as a full
+                stakeholder to business, offering a consulting-led approach with
+                an integrated portfolio of technology led solutions that
+                encompass the entire Enterprise value chain. Our
+                Customer-centric Engagement Model defines how we do engage with
+                you, offering specialized services and solutions that meet the
+                distinct needs of your business. We build bespoke teams around
+                your domain and technology requirements drawn from our talent
+                pool of over 469,261 global professionals including 36.4% women
+                from 147 nationalities. Our domain expertise has been built upon
+                decades of experience working across industries and this
+                knowledge underpins our suite of solutions. Our organization
+                structure is domain led and empowered to help provide Customers
+                a single window to industry specific solutions. Agile industry
+                units have embedded capabilities to enable rapid responses that
+                provide a competitive edge to our Customers. This is coupled
+                with a unique Global Network Delivery Model™ (GNDM™), spanning
+                40 global locations, that is today recognized as the benchmark
+                of excellence in technology deployment.
+              </p>
+
+              <!--Body-->
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        <!--Grid column-->
+      </div>
+    </section>
+    <!--Section-->
+
+    <!-- Footer-->
+    <%- include ('./partial/footer') %>
+  </body>
+</html>
