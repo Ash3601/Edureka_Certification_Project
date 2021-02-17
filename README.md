@@ -13,7 +13,7 @@ docker images
 cd "certification project/media-nginx"
 docker-compose up
 
-Note: Use <npm install> in the individual apps if required to run separately
+Note: Use "npm install" in the individual apps if required to run separately
 
 # check out customer facing app
 
