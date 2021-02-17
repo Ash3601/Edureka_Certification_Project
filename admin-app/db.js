@@ -2,7 +2,6 @@ require("dotenv").config();
 const mongoose = require("mongoose");
 
 // mongodb atlas database name : db_media
-console.log(process.env.MongoDB_Atlas);
 const mongodb_url = process.env.MongoDB_Atlas;
 
 mongoose
