@@ -1,14 +1,18 @@
-# Atlas cluster is used to connect with mongodb online
+Atlas cluster is used to connect with mongodb online
 
-# dbName : db_media
+# dbName :
 
-# collectionName : user_list, news_list
+db_media
+
+# collectionName :
+
+user_list, news_list
 
 # start development server
 
-cd admin-app
-npm install
-npm start (or npm run dev)
+1. cd admin-app
+2. npm install
+3. npm start (or npm run dev)
 
 # register or login
 
