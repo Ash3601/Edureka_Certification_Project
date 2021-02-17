@@ -35,13 +35,11 @@ click [Contact Us menu]
 
 http://localhost:9900
 
-register an admin user  
-(or use existing admin2@testmail.com password admin2 )
+register an admin user
 
 Add News (FYI)  
 title: The Ashwin Perspective: Deal with accusations on pitches better, reflect how we treat our own players  
-description : " Read more at: http://timesofindia.indiatimes.com/articleshow/80990253.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst",  
-url: https://timesofindia.indiatimes.com/sports/cricket/england-in-india/the-ashwin-perspective-deal-with-accusations-on-pitches-better-reflect-how-we-treat-our-own-players/articleshow/80990253.cms  
+description :Reflect on how they deal with accusations of preparing tailor-made pitches or how, instead of celebrating a talent like
 urlToImage : "test.jpg"  
 publishedAt : 24-02-2021
 
